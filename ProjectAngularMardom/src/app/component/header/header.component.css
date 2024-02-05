@@ -1,0 +1,8 @@
+header{
+    display:flex;
+    justify-content:space-around;
+    background-color:black;
+    color:white;
+    padding:20px;
+    font-family: 'Roboto Mono', monospace;
+}

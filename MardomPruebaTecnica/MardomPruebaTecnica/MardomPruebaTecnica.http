@@ -1,0 +1,6 @@
+@MardomPruebaTecnica_HostAddress = http://localhost:5231
+
+GET {{MardomPruebaTecnica_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

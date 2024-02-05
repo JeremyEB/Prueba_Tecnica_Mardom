@@ -1,0 +1,43 @@
+.container-body{
+    position:relative;
+    height:1250px;
+    background-image:url('/assets/images/Fantasy.jpg');
+    background-size:cover;
+    background-position:center;
+    color:white;
+    text-align:center;
+    padding:20px;
+    box-sizing:border-box;
+}
+
+.container-1{
+    position:absolute;
+    top:50%;
+    left:20%;
+    transform:translate(-50%, -50%);
+}
+
+.container-1 > .texto_plano{
+    font-size:24px;
+    font-weight:bold;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+    margin-bottom:20px;
+}
+
+thead{
+    background-color:#0BC2DF;
+}
+
+th, td{
+    padding:12px;
+    text-align:left;
+    border-bottom:1px solid #ddd;
+}
+
+tbody tr:hover{
+    background-color:black;
+}

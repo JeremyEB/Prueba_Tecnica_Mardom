@@ -1,0 +1,27 @@
+<section class="container-body">
+    <div class="container-1">
+        <p class="texto_plano">Lista de Empleados</p>
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Last Name</th>
+                    <th>Document</th>
+                    <th>Salary</th>
+                    <th>Gender</th>
+                    <th>Position</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let element of dataTable">
+                    <td>{{element.name}}</td>
+                    <td>{{element.lastName}}</td>
+                    <td>{{element.document}}</td>
+                    <td>{{element.salary}}</td>
+                    <td>{{element.gender}}</td>
+                    <td>{{element.position}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</section>
